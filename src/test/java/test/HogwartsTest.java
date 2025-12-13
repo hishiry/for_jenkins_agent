@@ -29,7 +29,7 @@ import org.junit.Test;
 public class HogwartsTest extends Base {
 
     @Test public void error_demo() {
-        pass;
+        assertTrue(false);
     }
 
 }
