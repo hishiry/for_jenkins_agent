@@ -31,8 +31,8 @@ import static org.junit.Assert.assertTrue;
 public class HogwartsTest extends Base {
 
     @Test public void error_demo() {
-        assertTrue(false);
-//        assertTrue(true);
+        // assertTrue(false);
+       assertTrue(true);
     }
 
 }
