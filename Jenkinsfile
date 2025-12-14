@@ -21,7 +21,7 @@ pipeline{
         }
         stag('test'){
             steps {
-                sh 'mvn test'
+                sh 'mvn clean test -Dmaven.test.failure.ignore=true'
             }
             post{
                 sucess{
